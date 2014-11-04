@@ -5,5 +5,5 @@ fs.writeFile('target.txt', 'a witty message', function(err) {
     throw err;
   }
 
-  console.log("File saved!");
+  console.log('File saved!');
 });
