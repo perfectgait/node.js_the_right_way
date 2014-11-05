@@ -16,7 +16,8 @@ const
     let watcher = fs.watch(filename, function() {
       connection.write(JSON.stringify({
         type: 'changed',
-        file: filename
+        file: filename,
+        timestamp: Date.now()
       }) + '\n');
     });
 
