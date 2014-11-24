@@ -4,6 +4,7 @@
   "description": "Tools for creating an ebook database.",
   "author": "Matt Rathbun <mrathbun80@gmail.com>",
   "dependencies": {
+    "cheerio": "^0.18.0",
     "request": "^2.48.0"
   }
 }
