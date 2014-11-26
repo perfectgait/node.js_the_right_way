@@ -1,3 +1,9 @@
 # IntelliJ
 .idea
 *.iml
+
+# nodejs
+**/node_modules
+
+# Anything cache related
+**/cache
