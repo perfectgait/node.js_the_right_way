@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  byAuthor: {
+  by_author: {
     map: function(doc) {
       if ('authors' in doc) {
         doc.authors.forEach(emit);
@@ -9,7 +9,7 @@ module.exports = {
     }.toString(),
     reduce: '_count'
   },
-  bySubject: {
+  by_subject: {
     map: function(doc) {
       if ('subjects' in doc) {
         doc.subjects.forEach(function(subject) {
